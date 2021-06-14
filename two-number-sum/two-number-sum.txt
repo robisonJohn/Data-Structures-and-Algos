@@ -1,0 +1,11 @@
+Objective: write a function that takes in a non-empty array
+of distinct integers and an integer representing a target sum.
+If two numbers in the input array sum up to the target sum, the 
+function should return them in an array, in any order. Else, return 
+an empty array.
+Note that the sum must be the sum of two distinct integers.
+Example:
+array = [3,5,-4,8,11,1,-1,6]
+targetSum = 10
+returns [11,-1]
+
