@@ -1,0 +1,28 @@
+Objective: There is an algorithms tournament in 
+which teams compete in a round robin, where each 
+team faces off against all other teams.
+Teams compete two at a time, with one home team 
+and one away team. There is always one winner and 
+one loser; there are no ties. A team receives 
+three points if it wins and 0 points if it loses.
+The winner receives the most points total.
+
+Given an array of pairs representing the teams that
+competed against each other and an array containing
+the results of each competition, create a function 
+that returns the winner of the tournament. 
+
+Sample Input:
+competitions = [
+    ["HTML],"C#"],
+    ["C#", "Python"],
+    ["Python","HTML"],
+]
+results = [0,0,1]
+
+Sample output:
+"Python"
+C# beats HTML, Python beats C#, Python beats HTML
+HTML - 0 points
+C# - 3 points
+Python - 6 points 
